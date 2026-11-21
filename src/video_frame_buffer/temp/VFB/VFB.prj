@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gowin-synthesis-project>
+<Project>
+    <Version>beta</Version>
+    <Device id="GW1NR-9" package="QFN88P" speed="6" partNumber="GW1NR-LV9QN88PC6/I5"/>
+    <FileList>
+        <File path="/Applications/GowinIDE.app/Contents/Resources/Gowin_EDA/IDE/ipcore/VFB/data/vfb_top.v" type="verilog"/>
+        <File path="/Applications/GowinIDE.app/Contents/Resources/Gowin_EDA/IDE/ipcore/VFB/data/vfb_wrapper.v" type="verilog"/>
+    </FileList>
+    <OptionList>
+        <Option type="disable_insert_pad" value="1"/>
+        <Option type="include_path" value="/Applications/GowinIDE.app/Contents/Resources/Gowin_EDA/IDE/ipcore/VFB/data"/>
+        <Option type="include_path" value="/Users/starry/hpm/eagle_pi_6e-main/eagle_pi_6e_fpga/src/video_frame_buffer/temp/VFB"/>
+        <Option type="ip_version" value="2.4"/>
+        <Option type="output_file" value="video_frame_buffer.vg"/>
+        <Option type="output_template" value="video_frame_buffer_tmp.v"/>
+        <Option type="ram_balance" value="1"/>
+        <Option type="ram_rw_check" value="1"/>
+        <Option type="top_module" value="Video_Frame_Buffer_Top"/>
+        <Option type="vcc" value="1.2"/>
+        <Option type="vccx" value="3.3"/>
+        <Option type="verilog_language" value="sysv-2017"/>
+    </OptionList>
+</Project>
